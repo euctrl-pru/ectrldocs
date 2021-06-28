@@ -18,6 +18,13 @@ selection](./man/figures/README-template-selection.png)
 document will reside, say `cucu`, please make sure to rename `cucu.Rmd`
 to `index.Rmd`.
 
+Or you can execute the following:
+
+``` r
+> library(ectrldocs)
+> create_ectrl_pub(dirname = "~/cucu")
+```
+
 ## Installation
 
 You can install the development version from

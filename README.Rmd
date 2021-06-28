@@ -27,6 +27,13 @@ From RStudio IDE you can simply select the relevant template from the R Markdown
 
 **NOTE**: Once you have defined the name of the directory where your document will reside, say `cucu`, please make sure to rename `cucu.Rmd` to `index.Rmd`.
 
+Or you can execute the following:
+
+```{r manual-setup, eval=FALSE}
+> library(ectrldocs)
+> create_ectrl_pub(dirname = "~/cucu")
+```
+
 ## Installation
 
 You can install the development version from [GitHub](https://github.com/) with:
