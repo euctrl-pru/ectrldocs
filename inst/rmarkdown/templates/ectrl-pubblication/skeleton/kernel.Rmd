@@ -1,0 +1,5 @@
+\mainmatter
+
+# First Numbered Chapter
+
+Some text as needed, with all the bits from `Rmd`\index{R Markdown}.

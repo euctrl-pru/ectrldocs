@@ -1,0 +1,6 @@
+name: EUROCONTROL Publication
+description: >
+   A template for a EUROCONTROL publication with front and back cover.
+   It is in general possible to get a PDF (via LaTeX) or HTML (bookdown)
+   output.
+create_dir: TRUE
