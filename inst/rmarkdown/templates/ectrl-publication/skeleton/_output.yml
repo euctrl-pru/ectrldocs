@@ -1,6 +1,6 @@
 bookdown::gitbook:
   split_by: section
-  css: [css/style.css, css/box.css]
+  css: [media/style.css, media/box.css]
   config:
     toc:
       before: |
@@ -12,9 +12,9 @@ bookdown::gitbook:
       facebook: no
 bookdown::pdf_book:
   includes:
-    in_header: [latex/preamble.tex, latex/blackbox.tex, latex/infobox.tex]
-    before_body: latex/before_body.tex
-    after_body: latex/after_body.tex
+    in_header: [media/preamble.tex, media/blackbox.tex, media/infobox.tex]
+    before_body: media/before_body.tex
+    after_body: media/after_body.tex
   keep_tex: yes
   dev: "cairo_pdf"
   fig_crop: false
@@ -27,4 +27,5 @@ bookdown::pdf_book:
   toc_appendix: yes
   highlight_bw: yes
   quote_footer: ["\\VA{", "}{}"]
-bookdown::epub_book: default
+bookdown::word_document2:
+  reference_docx: "media/template.docx"

@@ -4,7 +4,7 @@
 \alias{create_ectrl_pub}
 \title{Create a new directory with the specified publication template}
 \usage{
-create_ectrl_pub(dirname = "new-dir", template = "eurocontrol-publication")
+create_ectrl_pub(dirname = "new-dir", template = "ectrl-publication")
 }
 \arguments{
 \item{dirname}{name of the directory to create. If not specified, a directory
