@@ -1,0 +1,23 @@
+# Preface {-}
+
+```{asis, echo=!knitr::is_latex_output()}
+::: {.infobox .caution}
+**Note**: Please name this file index.Rmd
+:::
+```
+
+
+You can cite publications in you `.bib` file, for example [@delaycost].
+
+## Executive Summary {-}
+
+
+
+## Acknowledgments {-}
+
+Thanks you all
+
+::: {.flushright data-latex=""}
+Name1 Surname1
+Bruxelles, Belgium
+:::
