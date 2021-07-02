@@ -38,4 +38,5 @@ create_ectrl_pub = function(dirname = "new-dir", template = "ectrl-publication")
       file.path(dirname),
       recursive = TRUE)
    file.rename(file.path(dirname, "skeleton.Rmd"), file.path(dirname, "index.Rmd"))
+   file.rename(file.path(dirname, "xyzzy.Rproj"), file.path(dirname, paste0(dirname, ".Rproj")))
 }
