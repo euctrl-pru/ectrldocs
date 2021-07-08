@@ -1,4 +1,10 @@
-rmd_files: ["index.Rmd", "kernel.Rmd", "appendix.Rmd", "coda.Rmd"]
+rmd_files: [
+  "index.Rmd",
+  "forefront.Rmd",
+  "preface.Rmd",
+  "kernel.Rmd",
+  "appendix.Rmd",
+  "coda.Rmd"]
 
 output_dir: "docs"
 new_session: true
