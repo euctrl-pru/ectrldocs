@@ -2,8 +2,7 @@
 title: "Yout title"
 author: "name1 surname1, name2 m2. surname2"
 date: "`r Sys.Date()`"
-bibliography:
-  - bibliography.bib
+bibliography: bibliography.bib
 csl: aerospace-science-and-technology.csl
 description: This is a pubblication.
 documentclass: krantz
@@ -14,8 +13,6 @@ lot: yes
 lof: yes
 fontsize: 11pt
 site: bookdown::bookdown_site
-# github-repo: gh_account/gh_repo
-# url: 'https\://eurocontrol.int/wherever/youputit/'
 cover-image: images/cover.pdf
 ---
 
@@ -33,16 +30,21 @@ knitr::opts_chunk$set(tidy = TRUE)
 :::
 ```
 
+In the following sections we will showcase the typographical and web publishing
+possibilities made available by `bookdown`.
 
-You can cite publications in you `.bib` file, for example [@delaycost].
 
 ## Executive Summary {-}
 
+You can have unnumbered sections like this one, just add `{-}` at the end
+of the header text.
 
 
 ## Acknowledgments {-}
 
-Thanks you all
+The following is a `special box`, it is flushing right. Other types exist,
+please check the R Markdown Cookbook [Custom blocks](https://bookdown.org/yihui/rmarkdown-cookbook/custom-blocks.html#custom-blocks) section.
+
 
 ::: {.flushright data-latex=""}
 Name1 Surname1
